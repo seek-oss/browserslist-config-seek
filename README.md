@@ -1,4 +1,4 @@
-[![Build Status](https://img.shields.io/travis/seek-oss/browserslist-config-seek/master.svg?style=flat-square)](http://travis-ci.org/seek-oss/browserslist-config-seek)
+[![Build Status](https://img.shields.io/travis/seek-oss/browserslist-config-seek/master.svg?style=flat-square)](http://travis-ci.org/seek-oss/browserslist-config-seek) [![npm](https://img.shields.io/npm/v/browserslist-config-seek.svg?style=flat-square)](https://www.npmjs.com/package/browserslist-config-seek)
 
 # browserslist-config-seek
 
