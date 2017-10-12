@@ -1,3 +1,5 @@
+[![Build Status](https://img.shields.io/travis/seek-oss/browserslist-config-seek/master.svg?style=flat-square)](http://travis-ci.org/seek-oss/browserslist-config-seek)
+
 # browserslist-config-seek
 
 Shareable [Browserslist](https://github.com/ai/browserslist) config for [SEEK](https://github.com/seek-oss).
