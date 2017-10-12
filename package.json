@@ -1,15 +1,18 @@
 {
   "name": "browserslist-config-seek",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Shareable Browserslist config for SEEK",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && node test",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "commit": "git-cz",
+    "commitmsg": "commitlint -e",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seek-oss/browserslist-config-seek.git"
+    "url": "https://github.com/seek-oss/browserslist-config-seek.git"
   },
   "author": "SEEK",
   "license": "MIT",
@@ -18,8 +21,18 @@
   },
   "homepage": "https://github.com/seek-oss/browserslist-config-seek#readme",
   "devDependencies": {
+    "@commitlint/cli": "^4.1.1",
+    "@commitlint/config-angular": "^3.1.1",
     "browserslist": "^2.5.1",
+    "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.8.0",
-    "eslint-config-sku": "^1.2.0"
+    "eslint-config-sku": "^1.2.0",
+    "husky": "^0.14.3",
+    "semantic-release": "^8.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
