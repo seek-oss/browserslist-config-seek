@@ -1,0 +1,25 @@
+{
+  "name": "browserslist-config-seek",
+  "version": "0.0.0",
+  "description": "Shareable Browserslist config for SEEK",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && node test",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seek-oss/browserslist-config-seek.git"
+  },
+  "author": "SEEK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seek-oss/browserslist-config-seek/issues"
+  },
+  "homepage": "https://github.com/seek-oss/browserslist-config-seek#readme",
+  "devDependencies": {
+    "browserslist": "^2.5.1",
+    "eslint": "^4.8.0",
+    "eslint-config-sku": "^1.2.0"
+  }
+}

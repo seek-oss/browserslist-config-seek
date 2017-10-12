@@ -1,0 +1,39 @@
+# browserslist-config-seek
+
+Shareable [Browserslist](https://github.com/ai/browserslist) config for [SEEK](https://github.com/seek-oss).
+
+```bash
+$ npm install --save-dev browserslist-config-seek
+```
+
+## Usage
+
+If you're directly consuming this package in an application, add this to your `package.json`:
+
+```js
+{
+  "browserslist": [
+    "extends browserslist-config-seek"
+  ]
+}
+```
+
+When manually configuring a tool that uses Browserslist, importing this package returns the array of supported browsers.
+
+For example, when configuring [babel-preset-env](https://github.com/babel/babel/tree/master/experimental/babel-preset-env) via JavaScript:
+
+```js
+{
+  presets: [
+    ['env', {
+      targets: {
+        browsers: require('browserslist-config-seek')
+      }
+    }]
+  ]
+}
+```
+
+## License
+
+MIT.

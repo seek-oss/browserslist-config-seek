@@ -1,0 +1,6 @@
+{
+  "extends": "sku",
+  "rules": {
+    "no-console": 0
+  }
+}
