@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/seek-oss/browserslist-config-seek#readme",
   "devDependencies": {
-    "@commitlint/cli": "^4.1.1",
+    "@commitlint/cli": "^5.0.0",
     "@commitlint/config-angular": "^4.2.0",
     "browserslist": "^2.5.1",
     "cz-conventional-changelog": "^2.0.0",
