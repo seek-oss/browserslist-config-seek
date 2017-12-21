@@ -30,6 +30,17 @@
     "husky": "^0.14.3",
     "semantic-release": "^8.0.3"
   },
+  "greenkeeper": {
+    "ignore": [
+      "@commitlint/cli",
+      "@commitlint/config-angular",
+      "cz-conventional-changelog",
+      "eslint",
+      "eslint-config-sku",
+      "husky",
+      "semantic-release"
+    ]
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
