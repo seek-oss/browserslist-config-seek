@@ -26,7 +26,7 @@
     "browserslist": "^2.5.1",
     "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.8.0",
-    "eslint-config-sku": "^1.2.0",
+    "eslint-config-sku": "^2.0.0",
     "husky": "^0.14.3",
     "semantic-release": "^8.0.3"
   },
