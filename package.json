@@ -28,7 +28,7 @@
     "eslint": "^4.8.0",
     "eslint-config-sku": "^1.2.0",
     "husky": "^0.14.3",
-    "semantic-release": "^8.0.3"
+    "semantic-release": "^12.2.2"
   },
   "config": {
     "commitizen": {
