@@ -1,5 +1,5 @@
 {
-  "extends": "sku",
+  "extends": "seek",
   "rules": {
     "no-console": 0
   }
