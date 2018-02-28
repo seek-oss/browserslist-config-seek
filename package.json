@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/seek-oss/browserslist-config-seek#readme",
   "devDependencies": {
-    "@commitlint/cli": "^6.0.5",
-    "browserslist": "3.0.0",
-    "commitlint-config-seek": "1.0.0",
+    "@commitlint/cli": "^6.1.2",
+    "browserslist": "3.1.1",
+    "commitlint-config-seek": "^1.0.0",
     "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^4.16.0",
-    "eslint-config-seek": "3.1.0",
+    "eslint": "^4.18.1",
+    "eslint-config-seek": "^3.1.0",
     "husky": "^0.14.3",
     "semantic-release": "^8.0.3"
   },
