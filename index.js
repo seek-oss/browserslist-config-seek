@@ -1,9 +1,8 @@
 module.exports = [
   '> 1%',
-  'Last 2 versions',
   'IE >= 10',
   'Edge >= 13',
-  'Safari >= 6',
-  'iOS >= 6',
+  'Safari >= 8',
+  'iOS >= 8',
   'Samsung >= 4'
 ];
