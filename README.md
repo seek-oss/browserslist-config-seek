@@ -22,7 +22,7 @@ If you're directly consuming this package in an application, add this to your `p
 
 When manually configuring a tool that uses Browserslist, importing this package returns the array of supported browsers.
 
-For example, when configuring [babel-preset-env](https://github.com/babel/babel/tree/master/experimental/babel-preset-env) via JavaScript:
+For example, when configuring [babel-preset-env](https://babeljs.io/docs/en/babel-preset-env) via JavaScript:
 
 ```js
 {
