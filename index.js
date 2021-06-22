@@ -1,8 +1,1 @@
-module.exports = [
-  '> 1%',
-  'IE >= 10',
-  'Edge >= 13',
-  'Safari >= 8',
-  'iOS >= 8',
-  'Samsung >= 4'
-];
+module.exports = ['Edge >= 16', 'Safari >= 9.1', 'iOS >= 9.3', 'Samsung >= 5'];
