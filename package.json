@@ -1,6 +1,6 @@
 {
   "name": "browserslist-config-seek",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Shareable Browserslist config for SEEK",
   "main": "index.js",
   "scripts": {
