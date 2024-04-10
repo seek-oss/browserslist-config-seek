@@ -1,5 +1,11 @@
 # browserslist-config-seek
 
+## 2.1.1
+
+### Patch Changes
+
+- [#38](https://github.com/seek-oss/browserslist-config-seek/pull/38) [`53f0388`](https://github.com/seek-oss/browserslist-config-seek/commit/53f038808adce68a7006bba05e7c9b3762ef01c7) Thanks [@askoufis](https://github.com/askoufis)! - Only include relevant files in published package
+
 ## 2.1.0
 
 ### Minor Changes
