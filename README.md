@@ -4,7 +4,7 @@
 
 Shareable [Browserslist](https://github.com/ai/browserslist) config for [SEEK](https://github.com/seek-oss).
 
-```bash
+```sh
 $ yarn add --dev browserslist-config-seek
 ```
 
@@ -27,12 +27,15 @@ For example, when configuring [@babel/preset-env](https://babeljs.io/docs/en/bab
 ```js
 {
   presets: [
-    ['env', {
-      targets: {
-        browsers: require('browserslist-config-seek')
-      }
-    }]
-  ]
+    [
+      'env',
+      {
+        targets: {
+          browsers: require('browserslist-config-seek'),
+        },
+      },
+    ],
+  ];
 }
 ```
 
