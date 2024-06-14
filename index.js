@@ -1,1 +1,8 @@
-module.exports = ['Edge >= 16', 'Safari >= 9.1', 'iOS >= 9.3', 'Samsung >= 5'];
+module.exports = [
+  'Chrome >= 84',
+  'Edge >= 84',
+  'Safari >= 14.1',
+  'iOS >= 14.1',
+  'Firefox >= 63',
+  'Samsung >= 14',
+];
