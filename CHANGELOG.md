@@ -1,5 +1,19 @@
 # browserslist-config-seek
 
+## 3.0.0
+
+### Major Changes
+
+- [#40](https://github.com/seek-oss/browserslist-config-seek/pull/40) [`0603b6e`](https://github.com/seek-oss/browserslist-config-seek/commit/0603b6ee6cd2020c21ea71d4c9f29131f409c5c9) Thanks [@felixhabib](https://github.com/felixhabib)! - Update supported browsers to the following:
+
+  | Browser          | Oldest supported version |
+  | ---------------- | ------------------------ |
+  | Chrome           | 84                       |
+  | Edge             | 84                       |
+  | Safari           | 14.1                     |
+  | Firefox          | 63                       |
+  | Samsung Internet | 14.0                     |
+
 ## 2.1.1
 
 ### Patch Changes
