@@ -32,7 +32,7 @@
     "@changesets/cli": "^2.27.1",
     "browserslist": "^4.23.0",
     "eslint": "^8.56.0",
-    "eslint-config-seek": "^13.0.0",
+    "eslint-config-seek": "^14.0.0",
     "prettier": "^3.2.5",
     "typescript": "~5.4.3"
   },
