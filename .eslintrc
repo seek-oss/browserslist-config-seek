@@ -1,6 +1,0 @@
-{
-  "extends": "seek/base",
-  "rules": {
-    "no-console": 0
-  }
-}
