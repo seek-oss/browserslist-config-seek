@@ -1,4 +1,5 @@
-const assert = require('assert');
+/* eslint-disable no-console */
+const assert = require('node:assert');
 const browserslist = require('browserslist');
 const config = require('./');
 
