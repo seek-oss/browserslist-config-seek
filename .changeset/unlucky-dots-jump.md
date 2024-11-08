@@ -1,5 +1,5 @@
 ---
-'browserslist-config-seek': major
+'browserslist-config-seek': minor
 ---
 
 Update supported browsers to the following:
