@@ -3,6 +3,7 @@
   "version": "3.1.0",
   "description": "Shareable Browserslist config for SEEK",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node test.js",
     "format": "pnpm run '/format:.*/'",
@@ -15,7 +16,8 @@
     "version": "changeset version"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
