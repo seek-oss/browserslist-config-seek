@@ -12,6 +12,7 @@
     "lint": "pnpm run '/lint:.*/'",
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier . --list-different",
+    "lint:tsc": "tsc",
     "release": "changeset publish",
     "version": "changeset version"
   },
