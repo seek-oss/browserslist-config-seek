@@ -1,1 +1,1 @@
-module.exports = require('eslint-config-seek');
+module.exports = require('eslint-config-seek/base');
