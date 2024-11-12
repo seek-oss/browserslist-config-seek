@@ -1,5 +1,11 @@
 # browserslist-config-seek
 
+## 3.2.0
+
+### Minor Changes
+
+- [#47](https://github.com/seek-oss/browserslist-config-seek/pull/47) [`e35b6c4`](https://github.com/seek-oss/browserslist-config-seek/commit/e35b6c4ab0a6003cd2ea933bdc155d726110ff3a) Thanks [@askoufis](https://github.com/askoufis)! - Add type definition for default export
+
 ## 3.1.0
 
 ### Minor Changes
