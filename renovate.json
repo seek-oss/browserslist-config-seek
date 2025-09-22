@@ -1,9 +1,0 @@
-{
-  "extends": ["seek"],
-  "packageRules": [
-    {
-      "packagePatterns": ["browserslist"],
-      "enabled": true
-    }
-  ]
-}
