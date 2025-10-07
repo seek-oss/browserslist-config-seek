@@ -1,5 +1,11 @@
 # browserslist-config-seek
 
+## 3.3.1
+
+### Patch Changes
+
+- [#52](https://github.com/seek-oss/browserslist-config-seek/pull/52) [`6a60769`](https://github.com/seek-oss/browserslist-config-seek/commit/6a607695ffc550e62c145aeb86d0e448e431bd85) Thanks [@felixhabib](https://github.com/felixhabib)! - Include `ChromeAndroid` in supported browsers, matching the `Chrome` version
+
 ## 3.3.0
 
 ### Minor Changes
