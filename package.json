@@ -1,6 +1,6 @@
 {
   "name": "browserslist-config-seek",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "description": "Shareable Browserslist config for SEEK",
   "main": "index.js",
   "types": "index.d.ts",
