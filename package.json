@@ -36,7 +36,7 @@
     "@tsconfig/node20": "^20.1.4",
     "browserslist": "^4.23.0",
     "eslint": "^9.13.0",
-    "eslint-config-seek": "^14.1.0",
+    "eslint-config-seek": "^15.0.0",
     "prettier": "^3.3.3",
     "typescript": "~5.9.0"
   },
