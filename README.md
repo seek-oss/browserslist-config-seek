@@ -10,6 +10,9 @@ $ yarn add --dev browserslist-config-seek
 
 ## Usage
 
+> [!IMPORTANT]
+> If your web application uses `sku`, there's no need to install this package - `sku` configures it for you.
+
 If you're directly consuming this package in an application, add this to your `package.json`:
 
 ```js
