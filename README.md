@@ -5,7 +5,7 @@
 Shareable [Browserslist](https://github.com/ai/browserslist) config for [SEEK](https://github.com/seek-oss).
 
 ```sh
-$ yarn add --dev browserslist-config-seek
+$ pnpm add -D browserslist-config-seek
 ```
 
 ## Usage
