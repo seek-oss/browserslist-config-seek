@@ -8,6 +8,6 @@ Update supported browsers to the following:
 | ---------------- | ------------------------ |
 | Chrome           | 95                       |
 | Edge             | 95                       |
-| Safari           | 15                       |
+| Safari           | 15.4                     |
 | Firefox          | 98                       |
 | Samsung Internet | 16                       |
