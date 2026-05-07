@@ -1,5 +1,23 @@
 # browserslist-config-seek
 
+## 3.4.0
+
+### Minor Changes
+
+- [#75](https://github.com/seek-oss/browserslist-config-seek/pull/75) [`5bf4853`](https://github.com/seek-oss/browserslist-config-seek/commit/5bf4853adbc1b210361973da789791dec6da4ba0) Thanks [@jahredhope](https://github.com/jahredhope)! - Update supported browsers to the following:
+
+  | Browser          | Oldest supported version |
+  | ---------------- | ------------------------ |
+  | Chrome           | 95                       |
+  | Edge             | 95                       |
+  | Safari           | 15.4                     |
+  | Firefox          | 98                       |
+  | Samsung Internet | 16                       |
+
+### Patch Changes
+
+- [#52](https://github.com/seek-oss/browserslist-config-seek/pull/52) [`6a60769`](https://github.com/seek-oss/browserslist-config-seek/commit/6a607695ffc550e62c145aeb86d0e448e431bd85) Thanks [@felixhabib](https://github.com/felixhabib)! - Include `ChromeAndroid` in supported browsers, matching the `Chrome` version
+
 ## 3.3.0
 
 ### Minor Changes
