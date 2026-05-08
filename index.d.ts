@@ -1,2 +1,2 @@
 declare const browserslistConfigSeek: string[];
-export default browserslistConfigSeek;
+export = browserslistConfigSeek;
