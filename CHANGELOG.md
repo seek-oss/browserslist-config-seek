@@ -1,5 +1,15 @@
 # browserslist-config-seek
 
+## 3.4.1
+
+### Patch Changes
+
+- [#79](https://github.com/seek-oss/browserslist-config-seek/pull/79) [`5125eac`](https://github.com/seek-oss/browserslist-config-seek/commit/5125eacf7be070b8607e3e980e28a024749addb9) Thanks [@askoufis](https://github.com/askoufis)! - Actually set the supported safari version to `>=15.4`. This was documented in [the 3.4.0 release] but was not actually implemented.
+
+  [the 3.4.0 release]: https://github.com/seek-oss/browserslist-config-seek/releases/tag/v3.4.0
+
+- [#78](https://github.com/seek-oss/browserslist-config-seek/pull/78) [`d2d93f0`](https://github.com/seek-oss/browserslist-config-seek/commit/d2d93f0a030ac277255492af603e5630a75550d6) Thanks [@askoufis](https://github.com/askoufis)! - Fix type declarations
+
 ## 3.4.0
 
 ### Minor Changes
