@@ -2,43 +2,44 @@
   "name": "browserslist-config-seek",
   "version": "3.4.1",
   "description": "Shareable Browserslist config for SEEK",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "scripts": {
-    "test": "node test.js",
-    "format": "pnpm run '/format:.*/'",
-    "format:eslint": "eslint . --fix",
-    "format:prettier": "prettier . --write",
-    "lint": "pnpm run '/lint:.*/'",
-    "lint:eslint": "eslint .",
-    "lint:prettier": "prettier . --list-different",
-    "lint:tsc": "tsc",
-    "release": "changeset publish",
-    "version": "changeset version"
+  "homepage": "https://github.com/seek-oss/browserslist-config-seek#readme",
+  "bugs": {
+    "url": "https://github.com/seek-oss/browserslist-config-seek/issues"
+  },
+  "license": "MIT",
+  "author": "SEEK",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seek-oss/browserslist-config-seek.git"
   },
   "files": [
     "index.js",
     "index.d.ts"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/seek-oss/browserslist-config-seek.git"
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test.js",
+    "format": "pnpm run format:oxlint && pnpm run format:oxfmt",
+    "format:oxfmt": "oxfmt --write .",
+    "format:oxlint": "oxlint --fix .",
+    "lint": "pnpm run '/lint:.*/'",
+    "lint:tsc": "tsc",
+    "lint:oxfmt": "oxfmt --check .",
+    "lint:oxlint": "oxlint .",
+    "release": "changeset publish",
+    "version": "changeset version"
   },
-  "author": "SEEK",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/seek-oss/browserslist-config-seek/issues"
-  },
-  "homepage": "https://github.com/seek-oss/browserslist-config-seek#readme",
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.1",
     "@changesets/cli": "^3.0.3",
-    "@tsconfig/node20": "^20.1.4",
+    "@tsconfig/node24": "^24.0.6",
+    "@types/node": "^24.19.2",
     "browserslist": "^4.23.0",
-    "eslint": "^10.0.0",
-    "eslint-config-seek": "^15.0.0",
-    "prettier": "^3.3.3",
+    "oxc-config-seek": "^1.0.0",
+    "oxfmt": "^0.79.0",
+    "oxlint": "^1.94.0",
     "typescript": "~6.0.0"
   },
-  "packageManager": "pnpm@10.34.5"
+  "packageManager": "pnpm@12.21.0"
 }
